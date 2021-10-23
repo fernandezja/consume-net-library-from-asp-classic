@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <FileVersion>1.6.0.0</FileVersion>
+	<Product>StarwarsCharacters (NET 6)</Product>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsCharacters.NET48", "src\StarwarsCharacters.NET48\StarwarsCharacters.NET48.csproj", "{1DE1FA43-01BE-40BE-B544-752F7720D236}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarwarsCharacters.NET48.Tests", "tests\StarwarsCharacters.NET48.Tests\StarwarsCharacters.NET48.Tests.csproj", "{3E9A84CF-5024-4558-8EF0-EB15B797728F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3CDE78B3-2E90-4A98-A854-CA41A0799B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsCharacters.NET6", "src\StarwarsCharacters.NET6\StarwarsCharacters.NET6.csproj", "{280E969F-91B7-4A1F-BD80-85BD5718C5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsCharacters.NET6.Tests", "tests\StarwarsCharacters.NET6.Tests\StarwarsCharacters.NET6.Tests.csproj", "{BDDA6634-7B4F-4131-B470-87D26A17F7E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE1FA43-01BE-40BE-B544-752F7720D236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE1FA43-01BE-40BE-B544-752F7720D236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE1FA43-01BE-40BE-B544-752F7720D236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE1FA43-01BE-40BE-B544-752F7720D236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9A84CF-5024-4558-8EF0-EB15B797728F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9A84CF-5024-4558-8EF0-EB15B797728F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9A84CF-5024-4558-8EF0-EB15B797728F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9A84CF-5024-4558-8EF0-EB15B797728F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280E969F-91B7-4A1F-BD80-85BD5718C5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280E969F-91B7-4A1F-BD80-85BD5718C5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280E969F-91B7-4A1F-BD80-85BD5718C5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280E969F-91B7-4A1F-BD80-85BD5718C5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDA6634-7B4F-4131-B470-87D26A17F7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDA6634-7B4F-4131-B470-87D26A17F7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDA6634-7B4F-4131-B470-87D26A17F7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDA6634-7B4F-4131-B470-87D26A17F7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E9A84CF-5024-4558-8EF0-EB15B797728F} = {3CDE78B3-2E90-4A98-A854-CA41A0799B21}
+		{BDDA6634-7B4F-4131-B470-87D26A17F7E4} = {3CDE78B3-2E90-4A98-A854-CA41A0799B21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFB46EA9-2B46-4672-A368-110687FE1C71}
+	EndGlobalSection
+EndGlobal
